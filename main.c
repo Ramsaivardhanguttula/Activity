@@ -18,8 +18,8 @@ int main()
     int i,l;
     printf("Enter name: ");//Asking the user
     scanf("%s", name);
-    stringtoHexa(name);
-    printf("Sum of Hexadecimal is %x\n",stringtoHexa(name));
+    stringtoHexa(name);// Calling function
+    printf("Sum of Hexadecimal is %x\n",stringtoHexa(name));//Printing the sum from the return value of Function
 
     return 0;
 }
